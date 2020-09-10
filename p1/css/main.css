@@ -19,7 +19,7 @@ body {
   text-decoration: none;
   background-image: url("../images/explosion-1.jpg");
   background-color: red;
-  background-size: 1920px auto;
+  background-size: cover;
 }
 center {
   text-align: center;
