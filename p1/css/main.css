@@ -1,6 +1,32 @@
 h1 {
-  color: blue;
+  color: white;
+  font-size: 250px;
+  font-style: italic;
+  text-align: center;
+}
+h2 {
+  color: orange;
+  text-align: center;
 }
 p {
   color: orange;
+}
+body {
+  text-decoration: none;
+  background-image: url("../images/explosion-1.jpg");
+  background-color: red;
+  background-size: 1920px auto;
+}
+center {
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: red;
 }
