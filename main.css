@@ -1,9 +1,20 @@
 h1 {
   font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 221, 255);
   font-size: 50px;
-  text-align: center;
   margin-bottom: 0px;
+  margin-left: 35px;
 }
-li {
-
+body {
+  background-color: black;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(0, 221, 255);
+}
+a:visited {
+  color: rgb(0, 221, 255);
+}
+a:hover {
+  color: orange;
 }
