@@ -44,3 +44,6 @@ a:visited {
 a:hover {
   color: rgb(235, 240, 255);
 }
+li {
+  color: rgb(235, 240, 255);
+}
