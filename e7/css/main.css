@@ -1,0 +1,46 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+#signature {
+  margin-bottom: 20px;
+  color: rgb(86, 112, 191);
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+p {
+  text-indent: 50px;
+  font-weight: bold;
+  color: rgb(79, 105, 184);
+}
+h1, h2, h3 {
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(235, 240, 255);
+    text-align: center;
+}
+h1 {
+  margin-bottom: 5px;
+  font-size: 60px;
+}
+h2 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+h3 {
+  font-size: 24px;
+}
+body {
+  margin: 30px;
+  background-color: rgb(128, 162, 255);
+}
+a:link {
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(168, 191, 255);
+}
+a:visited {
+  color: rgb(168, 191, 255);
+}
+a:hover {
+  color: rgb(235, 240, 255);
+}
