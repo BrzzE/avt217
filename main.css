@@ -1,14 +1,18 @@
 h1 {
   font-family: 'Open Sans', sans-serif;
-  color: rgb(0, 221, 255);
-  font-size: 50px;
+  color: orange;
+  font-size: 70px;
+  font-weight: bolder;
   margin-bottom: 0px;
   margin-left: 35px;
 }
 body {
+  margin: 50px;
   background-color: black;
 }
 a:link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
   text-decoration: none;
   color: rgb(0, 221, 255);
 }
@@ -17,4 +21,9 @@ a:visited {
 }
 a:hover {
   color: orange;
+}
+li {
+  color: orange;
+  list-style-type: square;
+  line-height: 50px;
 }
