@@ -9,6 +9,34 @@ main {
 width: 120vw;
 margin: -100px -12.5vw;
 }
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: orange;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0px 35px;
+}
+#main {
+  margin: 0px 50px;
+  background-color: black;
+}
+a:link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 221, 255);
+}
+a:visited {
+  color: rgb(0, 221, 255);
+}
+a:hover {
+  color: orange;
+}
+li {
+  color: orange;
+  list-style-type: square;
+  line-height: 50px;
+}
 #p1 .shape1 {
   width: 0;
   height: 0;
