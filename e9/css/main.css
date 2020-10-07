@@ -6,8 +6,8 @@ body {
   overflow-x: hidden;
 }
 main {
-width: 120vw;
-margin: -100px -12.5vw;
+  width: 120vw;
+  margin: -100px -12.5vw;
 }
 h1 {
   font-family: 'Open Sans', sans-serif;
