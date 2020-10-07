@@ -1,4 +1,8 @@
-body {
+#homepage {
   background-image: url("images/marina.jpg");
+  background-size: cover;
+}
+#about {
+  background-image: url("images/interior.jpeg");
   background-size: cover;
 }
