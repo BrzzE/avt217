@@ -1,6 +1,6 @@
 h1 {
   font-family: 'Open Sans', sans-serif;
-  color: orange;
+  color: white;
   font-size: 100px;
   font-weight: bolder;
   margin: 0px 35px;
@@ -9,7 +9,20 @@ body {
   margin: 0px 50px;
   background-color: black;
 }
-a:link {
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.coll {
+  width: 50%;
+  float: left;
+}
+a:link, h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-decoration: none;
@@ -25,4 +38,10 @@ li {
   color: orange;
   list-style-type: square;
   line-height: 50px;
+}
+
+@media screen and (max-width: 1536) {
+  body {
+    background-color: blue;
+  }
 }
