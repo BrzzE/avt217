@@ -1,12 +1,11 @@
 h1 {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: rgb(0, 221, 255);
   font-size: 100px;
   font-weight: bolder;
   margin: 0px 35px;
 }
 body {
-  margin: 0px 50px;
   background-color: black;
 }
 header {
@@ -18,15 +17,14 @@ main {
   margin: 25px auto;
   display: flow-root;
 }
-.coll {
-  width: 50%;
-  float: left;
-}
 a:link, h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-decoration: none;
   color: rgb(0, 221, 255);
+}
+h2 {
+  color: orange;
 }
 a:visited {
   color: rgb(0, 221, 255);
@@ -37,11 +35,13 @@ a:hover {
 li {
   color: orange;
   list-style-type: square;
-  line-height: 50px;
+  line-height: 30px;
 }
-
-@media screen and (max-width: 1536) {
-  body {
-    background-color: blue;
+@media screen and (max-width: 1536px) {
+  .coll {
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+    margin-bottom: 10px;
   }
 }
