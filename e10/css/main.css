@@ -1,0 +1,115 @@
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: orange;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0px 35px;
+}
+#main {
+  margin: 0px 50px;
+  background-color: black;
+}
+a:link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 221, 255);
+}
+a:visited {
+  color: rgb(0, 221, 255);
+}
+a:hover {
+  color: orange;
+}
+li {
+  color: orange;
+  list-style-type: square;
+  line-height: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #333333;
+}
+.board {
+  width: 900px;
+  background-color: whitesmoke;
+  padding: 50px;
+  display: flow-root;
+  margin: 25px auto;
+}
+.red, .black {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.red {
+  background-color: tomato;
+}
+.black {
+  background-color: #333333;
+}
+.column {
+  width: 1000px;
+  display: flow-root;
+  margin: auto;
+}
+.head, .foot {
+  width: 900px;
+  height: 100px;
+  background-color: red;
+}
+.head, .foot, .title, .col {
+  float: left;
+}
+.head {
+  margin: 10px 0px 10px 10px;
+}
+.title {
+  width: 900px;
+  height: 20px;
+  margin: 10px;
+  background-color: red;
+}
+.col {
+  width: 286.7px;
+  height: 800px;
+  margin: 10px;
+  background-color: red;
+}
+.foot {
+  margin: 10px 0px 10px 10px;
+}
+.blog {
+  width: 1100px;
+  display: flow-root;
+}
+.header {
+  width: 900px;
+  height: 200px;
+  margin: 120px 50px;
+  background-color: red;
+  float: left;
+}
+.text {
+  width: 650px;
+  height: 500px;
+  margin: 20px 0px 0px 50px;
+  background-color: red;
+  float: left;
+}
+.info {
+  width: 225.5px;
+  height: 250px;
+  margin: 20px;
+  background-color: red;
+  float: left;
+}
+.footer {
+  width: 650px;
+  height: 60px;
+  margin: 20px 0px 10px 50px;
+  background-color: red;
+  float: left;
