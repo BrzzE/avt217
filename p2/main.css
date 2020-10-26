@@ -1,8 +1,67 @@
+a:link {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: orange;
+}
 #homepage {
   background-image: url("images/marina.jpg");
   background-size: cover;
 }
+nav {
+  font-size: 30px;
+  text-shadow: 1px 2px 2px #CF7C0F;
+  text-align: center;
+}
+.pines {
+  color: #FFE388;
+  text-align: center;
+}
+.waters {
+  color: white;
+  text-shadow: 1px 2px 2px #CF7C0F;
+  text-align: center;
+}
 #about {
-  background-image: url("images/interior.jpeg");
-  background-size: cover;
+  background-color: black;
+}
+.about {
+  width: 1400px;
+  display: flow-root;
+  margin: auto;
+}
+#history {
+  margin: 8%;
+  width: 559px;
+  float: left;
+}
+.history {
+  color: white;
+  text-shadow: 1px 2px 2px #CF7C0F;
+  text-align: center;
+}
+.story {
+  font-size: 23px;
+  color: #FFE388;
+}
+#info {
+  margin: 8% 0;
+  width: 344px;
+  float: left;
+}
+#address {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 2px 2px #CF7C0F;
+  color: white;
+}
+#hours {
+  font-size: 23px;
+  text-align: center;
+  color: #FFE388;
 }
