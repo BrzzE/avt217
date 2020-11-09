@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.pumpkin {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 200px auto;
+}
+.left {
+  width: 500px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.middle {
+  width: 400px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  border-radius: 50%;
+}
+.right {
+  width: 500px;
+  height: 600px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  border-radius: 50%;
+}
+.l-eye, .r-eye {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+}
+.l-eye {
+  top: 100px;
+  left: 190px;
+}
+.r-eye {
+  top: 100px;
+  left: 460px;
+}
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid black;
+  position: absolute;
+  top: 220px;
+  left: 350px;
+}
+.stem {
+  width: 100px;
+  height: 200px;
+  background-color: #654321;
+  position: absolute;
+  top: -120px;
+  left: 360px;
+  z-index: -5;
+  transform: rotate(15deg);
+}
+.mouth {
+  width: 450px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  top: 350px;
+  left: 175px;
+}
+.tooth1 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+.tooth2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+.tooth3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+  position: absolute;
+  top: 350px;
+  left: 350px;
+}
+.tooth4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+  position: absolute;
+  top: 350px;
+  left: 450px;
+}
+.tooth5 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid orange;
+  position: absolute;
+  top: 350px;
+  left: 550px;
+}
+.tooth6 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 120px;
+}
+.tooth7 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+}
+.tooth8 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 300px;
+}
+.tooth9 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+}
+.tooth10 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 500px;
+}
+.tooth11 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  position: absolute;
+  top: 450px;
+  left: 580px;
+}
