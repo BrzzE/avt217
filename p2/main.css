@@ -1,5 +1,7 @@
+* {
+  box-sizing: border-box;
+}
 a:link {
-  font-size: 30px;
   text-decoration: none;
   color: white;
 }
@@ -9,59 +11,105 @@ a:visited {
 a:hover {
   color: orange;
 }
+.orange {
+  color: orange;
+}
 #homepage {
   background-image: url("images/marina.jpg");
   background-size: cover;
 }
 nav {
+  position: relative;
+  top: 40px;
+  font-family: roc-grotesk-compressed, sans-serif;
+  font-style: normal;
+  font-weight: 600;
   font-size: 30px;
-  text-shadow: 1px 2px 2px #CF7C0F;
+  word-spacing: 40px;
+  text-shadow: 1px 2px 3px #CF7C0F;
   text-align: center;
 }
 .pines {
+  font-family: alexander-quill, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #FFE388;
   text-align: center;
 }
 .waters {
   color: white;
-  text-shadow: 1px 2px 2px #CF7C0F;
+  text-shadow: 1px 2px 3px #CF7C0F;
   text-align: center;
 }
 #about {
   background-color: black;
 }
+.nowhere {
+  font-size: 40px;
+  font-family: alexander-quill, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  top: 1vh;
+  left: 4vw;
+  text-align: center;
+  word-wrap: break-word;
+}
 .about {
-  width: 1400px;
+  width: 1000px;
   display: flow-root;
   margin: auto;
 }
 #history {
-  margin: 8%;
-  width: 559px;
+  position: relative;
+  top: 12vh;
+  left: 15vw;
+  width: 572px;
   float: left;
 }
 .history {
+  font-family: alexander-quill, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
   color: white;
-  text-shadow: 1px 2px 2px #CF7C0F;
+  text-shadow: 1px 2px 3px #CF7C0F;
   text-align: center;
 }
 .story {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 23px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  line-height: 32px;
   color: #FFE388;
 }
 #info {
-  margin: 8% 0;
-  width: 344px;
+  position: relative;
+  top: 22vh;
+  left: 21vw;
+  width: 380px;
   float: left;
 }
-#address {
-  font-size: 25px;
+.address {
+  font-size: 40px;
+  font-family: roc-grotesk-compressed, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
   text-align: center;
-  text-shadow: 1px 2px 2px #CF7C0F;
+  text-shadow: 1px 2px 3px #CF7C0F;
   color: white;
 }
-#hours {
+.hours {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 2px;
   font-size: 23px;
+  line-height: 4px;
   text-align: center;
   color: #FFE388;
 }
