@@ -12,11 +12,11 @@ a:hover {
   color: orange;
 }
 .orange {
-  color: orange;
+  color: #FF9500;
 }
 #homepage {
   background-image: url("images/marina.jpg");
-  background-size: cover;
+  background-size: auto;
 }
 nav {
   position: relative;
@@ -24,22 +24,37 @@ nav {
   font-family: roc-grotesk-compressed, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 35px;
   word-spacing: 40px;
   text-shadow: 1px 2px 3px #CF7C0F;
   text-align: center;
 }
+#main {
+  width: 340px;
+  position: relative;
+  top: 25vh;
+  margin: auto;
+}
 .pines {
   font-family: alexander-quill, sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
+  font-size: 90px;
   color: #FFE388;
+  line-height: 75px;
   text-align: center;
+  margin: 0;
 }
 .waters {
+  font-family: alexander-quill, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
   color: white;
+  line-height: 35px;
   text-shadow: 1px 2px 3px #CF7C0F;
   text-align: center;
+  margin: 20px 25px;;
 }
 #about {
   background-color: black;
@@ -48,17 +63,13 @@ nav {
   font-size: 40px;
   font-family: alexander-quill, sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
+  color: #FFE388;
+  line-height: 35px;
   position: absolute;
-  top: 1vh;
+  top: 4vh;
   left: 4vw;
   text-align: center;
-  word-wrap: break-word;
-}
-.about {
-  width: 1000px;
-  display: flow-root;
-  margin: auto;
 }
 #history {
   position: relative;
@@ -70,7 +81,7 @@ nav {
 .history {
   font-family: alexander-quill, sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
   text-decoration: underline;
   color: white;
   text-shadow: 1px 2px 3px #CF7C0F;
@@ -83,7 +94,7 @@ nav {
   font-size: 23px;
   word-spacing: 5px;
   letter-spacing: 1px;
-  line-height: 32px;
+  line-height: 36px;
   color: #FFE388;
 }
 #info {
