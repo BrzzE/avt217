@@ -71,11 +71,13 @@ nav {
   left: 4vw;
   text-align: center;
 }
+main {
+  width: 70%;
+  margin: 120px auto;
+  display: flow-root;
+}
 #history {
-  position: relative;
-  top: 12vh;
-  left: 15vw;
-  width: 572px;
+  width: 60%;
   float: left;
 }
 .history {
@@ -94,14 +96,11 @@ nav {
   font-size: 23px;
   word-spacing: 5px;
   letter-spacing: 1px;
-  line-height: 36px;
+  line-height: 32px;
   color: #FFE388;
 }
 #info {
-  position: relative;
-  top: 22vh;
-  left: 21vw;
-  width: 380px;
+  width: 40%;
   float: left;
 }
 .address {
@@ -116,11 +115,22 @@ nav {
 }
 .hours {
   font-family: roc-grotesk, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-style: normal;
   letter-spacing: 2px;
   font-size: 23px;
   line-height: 4px;
   text-align: center;
   color: #FFE388;
+}
+.link {
+  border-bottom: 3px solid white;
+}
+@media only screen and (max-width: 1200px){
+  #history {
+    width: 100%;
+  }
+  #info {
+    width: 100%;
+  }
 }
